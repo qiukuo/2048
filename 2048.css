@@ -1,0 +1,110 @@
+body{
+	margin-left: 300px;
+}
+div{
+	width: 100px;
+	height: 100px;
+	background-color: #CCCCCC;
+	float: left;
+	margin: 2px;
+	background-size:100px 100px; 
+	background-repeat: no-repeat;
+}
+
+.shu2{
+	background-repeat: no-repeat;
+	background: url(shu2.jpg);
+	background-size:100px 100px; 
+	
+	background-position: 0px 0px;
+}
+.shu4{
+	background-repeat: no-repeat;
+	background: url(shu4.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+}
+.shu8{
+	background-repeat: no-repeat;
+	background: url(shu8.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+}
+.shu16{
+	background-repeat: no-repeat;
+	background: url(shu16.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+}
+.shu32{
+	background-repeat: no-repeat;
+	background: url(shu32.jpg);
+	background-size:100px 100px;
+	background-position: 0px 0px; 
+}
+.shu64{
+	background-repeat: no-repeat;
+	background: url(shu64.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+	}
+.shu128{
+	background-repeat: no-repeat;
+	background: url(shu128.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+	}
+.shu256{
+	background-repeat: no-repeat;
+	background: url(shu256.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+	
+}
+.shu512{
+	background-repeat: no-repeat;
+	background: url(shu512.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+}
+.shu1024{
+	background-repeat: no-repeat;
+	background: url(shu1024.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+}
+.shu2048{
+	background-repeat: no-repeat;
+	background: url(shu2048.jpg);
+	background-size:100px 100px; 
+	background-position: 0px 0px;
+}
+
+@-webkit-keyframes lefton /* Safari 和 Chrome */
+{
+0%   {background-position: 50px 0px;}
+20%  {background-position: 40px 0px;}
+60%  {background-position: 20px 0px;}
+100% {background-position: 0px 0px;  }
+}
+@-webkit-keyframes righton /* Safari 和 Chrome */
+{
+0%   {background-position: 0px 0px;}
+20%  {background-position: 20px 0px;}
+60%  {background-position: 40px 0px;}
+100% {background-position: 50px 0px;  }
+}
+@-webkit-keyframes upon /* Safari 和 Chrome */
+{
+0%   {background-position: 0px -50px;}
+20%  {background-position: 0px -40px;}
+60%  {background-position: 0px -20px;}
+100% {background-position: 0px 0px;  }
+}
+@-webkit-keyframes downon /* Safari 和 Chrome */
+{
+0%   {background-position: 0px 50px;}
+20%  {background-position: 0px 60px;}
+60%  {background-position: 0px 80px;}
+100% {background-position: 0px 100px;   }
+}
